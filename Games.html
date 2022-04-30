@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Games-style.css">
+    <script src="./Games.js"></script>
+    <title>Игры</title>
+</head>
+<body>
+    <div class="top">
+        <header class="header center">
+                <section>
+                    <h1 class="header_title">Добро пожаловать<br />на мой сайт!</h1>
+                </section> 
+                <section>
+                    <p class="header_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="b">поехали</span> и <span class="b">приступай</span></p>
+                </section>
+                <section>
+                    <button class="header_button">Поехали!</button>
+                </section>
+        </header>  
+    </div>
+    <section class="catalog center">
+        <div class="catalog-content">
+            <div class="game-card">
+                <a href="#" onclick="month();"><img class="game_img" src="img/game1.png" alt="Game 1"></a> 
+                <p class="game_name">Игра 1</p>            
+            </div>
+            <div class="game-card">
+                <a href="#" onclick="fruitsSort();"><img class="game_img" src="img/game2.png" alt="Game 2"></a> 
+                <p class="game_name">Игра 2</p>            
+            </div>
+            <div class="game-card">
+                <a href="#" onclick="askQuestion();"><img class="game_img" src="img/game3.png" alt="Game 3"></a> 
+                <p class="game_name">Игра 3</p>            
+            </div>
+        </div>
+    </section>
+    <section class="game center">
+        <div class="description">
+            <section>
+                <h1 class="game_title">Времена года!</h1>
+            </section> 
+            <section>
+                <p class="game_text">Нажмите кнопку играть, введите номер месяца (от&nbsp;1&nbsp;до&nbsp;12) и&nbsp;вы&nbsp;узнаете к&nbsp;какому времени года он&nbsp;относится.</p>
+            </section>
+            <section>
+                <button class="game_button"><a href="#" class="game_button_text" onclick="month();">Играть!</a></button>
+            </section>
+        </div>
+        <div class="art">
+            <img class="art_img" src="img/art1.png" alt="Game 1">
+        </div>
+    </section>
+    <section class="game center">
+        <div class="art">
+            <img class="art_img" src="img/art2.png" alt="Game 2">
+        </div>
+        <div class="description">
+            <section>
+                <h1 class="game_title">Запомни слова</h1>
+            </section> 
+            <section>
+                <p class="game_text">При нажатии на&nbsp;кнопку играть, вы&nbsp;увидите несколько слов, которые вам необходимо запомнить.</p>
+            </section>
+            <section>
+                <button class="game_button"><a href="#" class="game_button_text" onclick="fruitsSort();">Играть!</a></button>
+            </section>
+        </div>
+    </section>
+    <section class="game_three center">
+        <div class="description_three ">
+            <section>
+                <h1 class="game_title">Игра в загадки</h1>
+            </section> 
+            <section>
+                <p class="game_text">Компьютер загадывает загадку, вам необходимо ее&nbsp;угадать, если вы&nbsp;дадите неправильный ответ, то&nbsp;компьютер даст вам подсказку. У&nbsp;вас будет три попытки и&nbsp;две подсказки.</p>
+            </section>
+            <section>
+                <button class="game_button"><a href="#" class="game_button_text" onclick="askQuestion();">Играть!</a></button>
+            </section>
+        </div>
+    </section>
+    <footer class="footer center">
+        <p class="footer_text">Все права защищены</p>
+    </footer>
+</body>
+</html>
