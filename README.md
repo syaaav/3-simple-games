@@ -1,1 +1,1 @@
-# 3-simple-games
+# 3 simple JavaScript games
